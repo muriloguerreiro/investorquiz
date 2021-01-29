@@ -1,0 +1,45 @@
+{
+  "bg": "https://cdn.pixabay.com/photo/2017/09/07/08/54/money-2724241_1280.jpg",
+  "title": "Investor Quiz",
+  "description": "Test your investment knowledge and find out if you are a good investor.",
+  "questions": [
+    {
+      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+      "title": "Which one is not a type of investor profile?",
+      "description": "Starting with an easy one...",
+      "answer": 2,
+      "alternatives": [
+        "Aggressive",
+        "Volatile",
+        "Moderate",
+        "Conservative"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+      "title": "Which of these types of investments is the most volatile?",
+      "description": "",
+      "answer": 0,
+      "alternatives": [
+         "Day trading",
+         "Company shares",
+         "Investment fund"
+      ]
+    }
+  ],
+  "external": [
+    ""
+  ],
+  "theme": {
+    "colors": {
+      "primary": "#5d4e44",
+      "secondary": "#5d4e44",
+      "mainBg": "#857062",
+      "responsiveBg": "#EEEA98",
+      "contrastText": "#FFFFFF",
+      "wrong": "#FF5722",
+      "success": "#4CAF50"
+    },
+    "borderRadius": "4px"
+  }
+}
