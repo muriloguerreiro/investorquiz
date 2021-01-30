@@ -4,7 +4,7 @@
   "description": "Test your investment knowledge and find out if you are a good investor.",
   "questions": [
     {
-      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+      "image": "https://media.giphy.com/media/xT5LMWkOVQ4szY3xlu/giphy.gif",
       "title": "Which one is not a type of investor profile?",
       "description": "Starting with an easy one...",
       "answer": 2,
@@ -16,7 +16,7 @@
       ]
     },
     {
-      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+      "image": "https://media.giphy.com/media/JtBZm3Getg3dqxK0zP/giphy.gif",
       "title": "Which of these types of investments is the most volatile?",
       "description": "",
       "answer": 0,
@@ -33,7 +33,7 @@
   "theme": {
     "colors": {
       "primary": "#5d4e44",
-      "secondary": "#5d4e44",
+      "secondary": "#EEEA98",
       "mainBg": "#857062",
       "responsiveBg": "#EEEA98",
       "contrastText": "#FFFFFF",
