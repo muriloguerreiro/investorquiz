@@ -46,13 +46,18 @@ Widget.Content = styled.div`
     list-style: none;
     padding: 0;
   }
+  .score-text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1;
+  }
 `;
 
 Widget.Topic = styled.a`
   outline: 0;
   text-decoration: none;
   color: ${({ theme }) => theme.colors.contrastText};
-  background-color: ${({ theme }) => `${theme.colors.primary}40`};
+  background-color: ${({ theme }) => `${theme.colors.primary}70`};
   padding: 10px 15px;
   margin-bottom: 8px;
   cursor: pointer;
@@ -62,7 +67,7 @@ Widget.Topic = styled.a`
   
   &:hover,
   &:focus {
-    opacity: .5;
+    opacity: .9;
   }
 `;
 

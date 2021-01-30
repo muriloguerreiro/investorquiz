@@ -7,7 +7,7 @@
       "image": "https://media.giphy.com/media/xT5LMWkOVQ4szY3xlu/giphy.gif",
       "title": "Which one is not a type of investor profile?",
       "description": "Starting with an easy one...",
-      "answer": 2,
+      "answer": 1,
       "alternatives": [
         "Aggressive",
         "Volatile",
@@ -18,12 +18,24 @@
     {
       "image": "https://media.giphy.com/media/JtBZm3Getg3dqxK0zP/giphy.gif",
       "title": "Which of these types of investments is the most volatile?",
-      "description": "",
+      "description": "Be careful with this one...",
       "answer": 0,
       "alternatives": [
          "Day trading",
          "Company shares",
          "Investment fund"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/l41YfsMeWbVPC5XPy/giphy.gif",
+      "title": "Which of these companies has valued more than 800% in the past three years?",
+      "description": "800? Are you kidding me?",
+      "answer": 2,
+      "alternatives": [
+         "Amazon",
+         "Vale",
+         "Magazine Luiza",
+         "Netflix"
       ]
     }
   ],
