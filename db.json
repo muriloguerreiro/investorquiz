@@ -1,55 +1,160 @@
 {
   "bg": "https://cdn.pixabay.com/photo/2017/09/07/08/54/money-2724241_1280.jpg",
-  "title": "Investor Quiz",
-  "description": "Test your investment knowledge and find out if you are a good investor.",
+  "title": "Quiz do Investidor",
+  "description": "Teste seus conhecimentos sobre investimentos e descubra se você é um bom investidor!",
   "questions": [
     {
-      "image": "https://media.giphy.com/media/xT5LMWkOVQ4szY3xlu/giphy.gif",
-      "title": "Which one is not a type of investor profile?",
-      "description": "Starting with an easy one...",
-      "answer": 1,
-      "alternatives": [
-        "Aggressive",
-        "Volatile",
-        "Moderate",
-        "Conservative"
-      ]
-    },
-    {
-      "image": "https://media.giphy.com/media/JtBZm3Getg3dqxK0zP/giphy.gif",
-      "title": "Which of these types of investments is the most volatile?",
-      "description": "Be careful with this one...",
-      "answer": 0,
-      "alternatives": [
-         "Day trading",
-         "Company shares",
-         "Investment fund"
-      ]
-    },
-    {
       "image": "https://media.giphy.com/media/l41YfsMeWbVPC5XPy/giphy.gif",
-      "title": "Which of these companies has valued more than 800% in the past three years?",
-      "description": "800? Are you kidding me?",
+      "title": "Qual das empresas abaixo valorizou mais de 800% nos últimos três anos?",
+      "description": "Começando com uma bem fácil...",
       "answer": 2,
       "alternatives": [
-         "Amazon",
-         "Vale",
-         "Magazine Luiza",
-         "Netflix"
+        "Amazon",
+        "Vale",
+        "Magazine Luiza",
+        "Netflix"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/xT5LMWkOVQ4szY3xlu/giphy.gif",
+      "title": "Qual desses não é um tipo de perfil de investidor?",
+      "description": "Antes de investir, saiba seu perfil de investidor!",
+      "answer": 1,
+      "alternatives": [
+        "Agressivo",
+        "Volátil",
+        "Moderado",
+        "Conservador"
+      ]
+    },
+    {
+      "image": "https://i.gifer.com/EX1.gif",
+      "title": "Qual desses tipos de investimentos é o mais volátil?",
+      "description": "Tome muito cuidado com ele...",
+      "answer": 1,
+      "alternatives": [
+        "Buy and Hold",
+        "Day Trade",
+        "Swing Trade",
+        "Position Trade"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/LqfTaNPDBs8GiKy2am/giphy.gif",
+      "title": "Qual dos grandes investidores abaixo é o único ainda vivo?",
+      "description": "Grandes lendas do mundo dos investimentos!",
+      "answer": 0,
+      "alternatives": [
+        "George Soros",
+        "Benjamin Graham",
+        "John Templeton",
+        "Irving Kahn"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/3oriffmJi2eGmVKfg4/giphy.gif",
+      "title": "Qual das opções abaixo não é uma corretora de valores brasileira?",
+      "description": "Difícil adivinhar pelo nome...",
+      "answer": 3,
+      "alternatives": [
+        "Easynvest",
+        "Clear",
+        "XP",
+        "Avenue"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/3oKIPqXWNJswXf1InS/giphy.gif",
+      "title": "Quem possui ações preferenciais (PN) não recebe..",
+      "description": "É bom saber todos os proventos que você tem direito!",
+      "answer": 2,
+      "alternatives": [
+        "Dividendos",
+        "Juros sobre capital próprio",
+        "Direito de voto",
+        "Direito de subscrição"
+      ]
+    },
+    {
+      "image": "https://i.gifer.com/RPs9.gif",
+      "title": "Os fundos de investimentos imobiliários (FII's) possuem um ticker terminado em qual número?",
+      "description": "É importante saber o que cada um dos números representam...",
+      "answer": 4,
+      "alternatives": [
+        "____3",
+        "____4",
+        "____9",
+        "____10",
+        "____11"
+      ]
+    },
+    {
+      "image": "https://i.gifer.com/3Fh0.gif",
+      "title": "Qual dos produtos a seguir não é um tipo de investimento em Renda Fixa?",
+      "description": "Cuidado, não vá se confundir!",
+      "answer": 1,
+      "alternatives": [
+        "Debêntures",
+        "Fundos Imobiliários",
+        "Certificados de Depósito Bancário (CDBs)",
+        "Letras de Crédito Imobiliário (LCIs)"
+      ]
+    },
+    {
+      "image": "https://i.gifer.com/4B7Z.gif",
+      "title": "Qual dos itens a seguir não é um índice do mercado financeiro dos EUA?",
+      "description": "Difícil essa?",
+      "answer": 0,
+      "alternatives": [
+        "Toronto Stock Exchange",
+        "Dow Jones",
+        "NASDAQ",
+        "S&P 500"
+      ]
+    },
+    {
+      "image": "https://i.gifer.com/3Hm.gif",
+      "title": "Qual o significado da sigla CDI?",
+      "description": "Agora apertou!",
+      "answer": 2,
+      "alternatives": [
+        "Centro de Depósito Interbancário",
+        "Centro de Depósito Internacional",
+        "Certificado de Depósito Interbancário",
+        "Certificado de Depósito Internacional"
       ]
     }
   ],
   "external": [
-    ""
+    "https://movie-quiz.ptomilhero27.vercel.app/",
+    "https://aluraquiz-coffee.leonardot07.vercel.app/",
+    "https://aluraquiz-naruto.ronellyson.vercel.app/",
+    "https://brunoquiz.brunosaibert.vercel.app/",
+    "https://mr-robot-quiz-alura.bryanauta.vercel.app/",
+    "https://anime90s-quiz.yanbaetas.vercel.app/",
+    "https://quiz-react.brenoha.vercel.app/",
+    "https://quiz-spiderman.elciojunior7.vercel.app/",
+    "https://flash-quiz-next.davidlpc1.vercel.app/",
+    "https://musicquiz.sidibecker.vercel.app/",
+    "https://hollow-knight-quiz.lugusfe.vercel.app/",
+    "https://quiz-valorant.johnatanivini.vercel.app/",
+    "https://harry-potter-quiz.brunogerbasi.vercel.app/",
+    "https://1sec-quiz.victoroda.vercel.app/",
+    "https://pato-quiz-nextjs.theedouglasam.vercel.app/",
+    "https://naruto-quiz.llofyy.vercel.app/",
+    "https://math-quiz.noriller.vercel.app/",
+    "https://projeto-alura-quiz.andersonfroes.vercel.app/",
+    "https://thesimpsonsquiz.gabriel-brasil.vercel.app/",
+    "https://agilequiz-base-git-main.lbarroslgb.vercel.app/",
+    "https://strangerquiz.felipeoes.vercel.app/"
   ],
   "theme": {
     "colors": {
       "primary": "#5d4e44",
       "secondary": "#EEEA98",
       "mainBg": "#857062",
-      "responsiveBg": "#EEEA98",
       "contrastText": "#FFFFFF",
-      "wrong": "#FF5722",
+      "wrong": "#E24040",
       "success": "#4CAF50"
     },
     "borderRadius": "4px"

@@ -1,5 +1,8 @@
 import React from 'react';
+import Paging from "../src/components/Pagination";
+
 import Head from 'next/head';
+import { motion } from 'framer-motion';
 import { useRouter } from 'next/router';
 
 import db from '../db.json';
@@ -28,7 +31,16 @@ export default function Home() {
       </Head>
       <QuizContainer>
         <QuizLogo />
-        <Widget>
+        <Widget
+          as={motion.section}
+          transition={{ delay: 0, duration: 0.5 }}
+          variants={{
+            show: { opacity: 1, y: '0' },
+            hidden: { opacity: 0, y: '100%' },
+          }}
+          initial="hidden"
+          animate="show"
+        >
           <Widget.Header>
             <h1>{db.title}</h1>
           </Widget.Header>
@@ -42,24 +54,57 @@ export default function Home() {
               <Input
                 name="userName"
                 onChange={(infosDoEvento) => setName(infosDoEvento.target.value)}
-                placeholder="Enter your name..."
+                placeholder="Digite seu nome..."
                 value={name}
               />
               <Button type="submit" disabled={name.length === 0}>
-                {`Play as ${name}`}
+                {`Jogar como ${name}`}
               </Button>
             </form>
           </Widget.Content>
         </Widget>
 
-        <Widget>
+        <Widget
+          as={motion.section}
+          transition={{ delay: 0.5, duration: 0.5 }}
+          variants={{
+            show: { opacity: 1 },
+            hidden: { opacity: 0 },
+          }}
+          initial="hidden"
+          animate="show"
+        >
           <Widget.Content>
-            <h1>People`&apos;`s Quizzes</h1>
 
-            <p>Soon...</p>
+          <h1>Quizzes da Galera</h1>
+          <table className="table table-hover">
+            <thead>
+              <tr>
+                <th />
+              </tr>
+            </thead>
+            <Paging
+              itemsperpage={5}
+              nocolumns={3}
+              items={db.external}
+              pagesspan={5}
+            />
+          </table>
+          
+
+          
           </Widget.Content>
         </Widget>
-        <Footer />
+        <Footer
+          as={motion.footer}
+          transition={{ delay: 0.5, duration: 0.5 }}
+          variants={{
+            show: { opacity: 1 },
+            hidden: { opacity: 0 },
+          }}
+          initial="hidden"
+          animate="show"
+        />
       </QuizContainer>
       <GitHubCorner projectUrl="https://github.com/muriloguerreiro" />
     </QuizBackground>

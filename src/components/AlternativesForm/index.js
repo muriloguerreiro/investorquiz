@@ -24,6 +24,11 @@ const AlternativesForm = styled.form`
     font-weight: 400;
     line-height: 1;
   }
+  div .teste {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%
+}
 `;
 
 export default AlternativesForm;
